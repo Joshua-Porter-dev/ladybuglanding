@@ -1,14 +1,16 @@
 <template>
     <div class="navbar">
-        <nav class="red darken-3">
-            <div class="container">
-                <a href="" class="brand-logo left">Ladybug Landing</a>
-                <ul class="right">
-                    <li><a href="">Signup</a></li>
-                    <li><a href="">Login</a></li>
-                </ul>
-            </div>
-        </nav>
+        <v-app-bar color="red darken-3" dark>
+            <v-app-bar-nav-icon dark></v-app-bar-nav-icon>
+            <v-toolbar-title>Ladybug-landing</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-btn icon>
+                <v-icon>mdi-heart</v-icon>
+            </v-btn>
+            <v-btn icon>
+                <v-icon>mdi-magnify</v-icon>
+            </v-btn>
+        </v-app-bar>
     </div>
 </template>
 
